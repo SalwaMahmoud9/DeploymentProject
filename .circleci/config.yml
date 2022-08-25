@@ -95,18 +95,18 @@ jobs:
           command: |
             echo "# TODO: Deploy frontend"
             npm run frontend:deploy 
-      - run:
-          name: Test
-          # TODO: Test
-          command: |
-            echo "# TODO: Test"
-            npm run frontend:test    
-      - run:
-          name: Test e2e
-          # TODO: Test e2e
-          command: |
-            echo "# TODO: Test e2e"    
-            npm run frontend:e2e                   
+#       - run:
+#           name: Test
+#           # TODO: Test
+#           command: |
+#             echo "# TODO: Test"
+#             npm run frontend:test    
+#       - run:
+#           name: Test e2e
+#           # TODO: Test e2e
+#           command: |
+#             echo "# TODO: Test e2e"    
+#             npm run frontend:e2e                   
             
 workflows:
   udagram:
