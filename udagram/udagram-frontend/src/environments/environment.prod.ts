@@ -5,7 +5,7 @@ import { config } from "./config/config";
 
 export const environment = {
   production: true,
-  appName: config..eb_app,
+  appName: config.eb_app,
   apiHost: config.url+"api/v0",
 };
 
