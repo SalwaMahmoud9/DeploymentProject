@@ -95,14 +95,6 @@ jobs:
           command: |
             echo "# TODO: Deploy frontend"
             npm run frontend:deploy 
-  # test step
-  test:
-    docker:
-      - image: "cimg/base:stable"
-    steps:
-      - node/install:
-          node-version: '14.15' 
-      - checkout
       - run:
           name: Test
           # TODO: Test
