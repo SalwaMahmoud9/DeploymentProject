@@ -26,28 +26,6 @@ Your application must make use of the following libraries:
 - dotenv from npm for managing environment variables
 - db-migrate from npm for migrations
 
-Some scripts
-
-    - frontend
-        "ng": "ng",
-        "start": "ng serve",
-        "build": "npm install . && ng build",
-        "deploy": " chmod +x ./bin/deploy.sh && ./bin/deploy.sh",
-        "test": "ng test --watch=false",
-        "lint": "ng lint",
-        "e2e": "ng e2e"
-        
-    - backend
-        "start": "node server.js",
-        "tsc": "npx tsc",
-        "dev": "npx ts-node-dev --respawn --transpile-only ./src/server.ts",
-        "prod": "npx tsc && node ./www/server.js",
-        "clean": "rm -rf www/ || true",
-        "deploy": "chmod +x ./bin/deploy.sh && ./bin/deploy.sh",
-        "build": "npm install . && npm run clean && tsc && cp -rf src/config www/config && cp .npmrc www/.npmrc && cp package.json www/package.json && cd www && bestzip archive.zip * && cd ..",   
-
-
-
 I have used some dependencies
 "devDependencies": 
     -backend
@@ -128,4 +106,27 @@ I have used some dependencies
         "core-js": "^2.5.4",
         "rxjs": "~6.5.4",
         "zone.js": "~0.9.1"
+Some scripts
+
+    - frontend
+        "ng": "ng",
+        "start": "ng serve",
+        "build": "npm install . && ng build",
+        "deploy": " chmod +x ./bin/deploy.sh && ./bin/deploy.sh",
+        "test": "ng test --watch=false",
+        "lint": "ng lint",
+        "e2e": "ng e2e"
+        
+    - backend
+        "start": "node server.js",
+        "tsc": "npx tsc",
+        "dev": "npx ts-node-dev --respawn --transpile-only ./src/server.ts",
+        "prod": "npx tsc && node ./www/server.js",
+        "clean": "rm -rf www/ || true",
+        "deploy": "chmod +x ./bin/deploy.sh && ./bin/deploy.sh",
+        "build": "npm install . && npm run clean && tsc && cp -rf src/config www/config && cp .npmrc www/.npmrc && cp package.json www/package.json && cd www && bestzip archive.zip * && cd ..",   
+
+
+
+
  
