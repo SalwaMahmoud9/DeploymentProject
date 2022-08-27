@@ -26,8 +26,8 @@ Your application must make use of the following libraries:
 - dotenv from npm for managing environment variables
 - db-migrate from npm for migrations
 
-I have used some dependencies
-"devDependencies": 
+#### I have used some dependencies
+##### "devDependencies": 
     -backend
         "@types/bluebird": "^3.5.26",
         "@types/cors": "^2.8.6",
@@ -74,7 +74,7 @@ I have used some dependencies
  
 
 
-"dependencies":
+##### "dependencies":
     -backend
         "@types/bcryptjs": "2.4.2",
         "@types/jsonwebtoken": "^8.3.2",
@@ -106,7 +106,7 @@ I have used some dependencies
         "core-js": "^2.5.4",
         "rxjs": "~6.5.4",
         "zone.js": "~0.9.1"
-Some scripts
+#### Some scripts
 
     - frontend
         "ng": "ng",
