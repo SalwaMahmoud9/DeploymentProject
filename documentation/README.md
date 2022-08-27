@@ -135,4 +135,6 @@ Your application must make use of the following libraries:
 
 
 
- 
+ #### Note
+
+   - in deploy.sh printenv > .env # this line to pass variables to elasticbeanstalk
