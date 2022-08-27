@@ -2,7 +2,7 @@
 
 the project main functionality is to make Hosting a Full-Stack Application
 
-### Some ususeful data
+### Some useful data
 
 
 #### RDS endpoint
@@ -17,6 +17,9 @@ the project main functionality is to make Hosting a Full-Stack Application
 
    - http://elasticbeanstalk-us-east-1-246245624478.s3-website-us-east-1.amazonaws.com
 
+#### Database port
+
+   - 5432
 
 ### Technologies Used
 
