@@ -1,4 +1,5 @@
 version: 2.1
+# call scripts for deployment and build
 orbs:
   # orgs contain basc recipes and reproducible actions (install node, aws, etc.)
   node: circleci/node@5.0.2
