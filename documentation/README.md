@@ -1,25 +1,25 @@
 ### Main function 
-===============
+
 the project main functionality is to make Hosting a Full-Stack Application
 
 ### Some ususeful data
-===============
+
 
 #### RDS endpoint
-==============
+
    - udagram.c6xp4cn58wgn.us-east-1.rds.amazonaws.com
 
 #### Environment
-==============
+
    - Udagramapp-env-1.eba-fyzppmqb.us-east-1.elasticbeanstalk.com
 
 #### Bucket
-==============
+
    - http://elasticbeanstalk-us-east-1-246245624478.s3-website-us-east-1.amazonaws.com
 
-##########################################################
+
 ### Technologies Used
-===================
+
 Your application must make use of the following libraries:
 - Postgres for the database
 - Node/Express for the application logic
@@ -47,7 +47,7 @@ Some scripts
         "build": "npm install . && npm run clean && tsc && cp -rf src/config www/config && cp .npmrc www/.npmrc && cp package.json www/package.json && cd www && bestzip archive.zip * && cd ..",   
 
 
-***********************************************************************
+
 I have used some dependencies
 "devDependencies": 
     -backend
